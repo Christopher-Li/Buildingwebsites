@@ -1,0 +1,140 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	position: relative;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	/*background-color: #D1D4E6;*/
+}
+
+nav{
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	height: 37px;
+	z-index: 5;
+}
+
+nav *{
+	background-color: white;
+	float: right;
+	font-size: 20pt;
+	padding: 0px 10px;
+}
+
+#left{
+	float: left;
+}
+
+#content{
+	background-color: #D9D5D0;
+	margin: auto;
+	width: 80%;
+	height: 900px;
+}
+
+#meet{
+	background-image: url("../img/people.jpg");
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	z-index: -1;
+}
+
+#meetcaption{
+	top: 80%;
+	height: 20%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#meetcaption p{
+	margin: auto;
+	width: 80%;
+	background-color: transparent;
+	color: white;
+}
+
+#meetText{
+	position: absolute;
+	display: block;
+	background-color: transparent;
+	top: 50px;
+	left: 30px;
+}
+
+#meetText *{
+	background-color: black;
+	color: white;
+	font-size: 30pt;
+}
+
+#blankspace{
+	height: 37px;
+	background-color: white;
+}
+
+#work h2{
+	text-align: center;
+	font-size: 35pt;
+}
+
+#work{
+	background-color: white;
+	border: 5px solid blue;
+}
+
+.workdone{
+	width: 45%;
+	height: 400px;
+	float: left;
+	margin: 30px 2.5%;
+	background-color: white;
+	overflow: hidden;
+}
+
+.worktitle{
+	height:50px;
+	background-color:rgba(0,0,0,0.5);
+	font-size: 28pt;
+	text-align: center;
+	z-index: 1;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+}
+
+.workdescription{
+	left: 100%;
+	height: 350px;
+	background-color:rgba(0,0,0,0.5);
+	z-index: 1;
+}
+
+.workpicture{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	top: 0px;
+	left: 0px;
+	background-size: cover;
+}
+
+.pic1{
+	background-image: url("../img/picture1.jpg");
+}
+
+.pic2{
+	background-image: url("../img/picture2.jpg");
+}
+
+.pic3{
+	background-image: url("../img/picture3.jpg");
+}
+
+.pic4{
+	background-image: url("../img/pokemon.jpg");
+}
