@@ -140,6 +140,7 @@ nav *{
 }
 
 .workdescription{
+	color: white;
 	background: -webkit-linear-gradient(left,rgba(0,0,0,0.2),rgba(0,0,0,1));
 	-webkit-animation-duration: .5s;
     animation-duration: .5s;
