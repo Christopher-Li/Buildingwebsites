@@ -28,6 +28,8 @@ nav *{
 
 #left{
 	float: left;
+	font-size: 45pt;
+	background: rgba(0,0,0,0.2);
 }
 
 #content{

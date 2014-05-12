@@ -1,4 +1,4 @@
-var Pic1Div = document.getElementById("pic1");
+var Pic1Div = document.getElementById("work1");
 var Pic2Div = document.getElementById("pic2");
 var Pic3Div = document.getElementById("pic3");
 var Pic4Div = document.getElementById("pic4");
